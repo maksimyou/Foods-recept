@@ -1,0 +1,92 @@
+
+.container_ditails{
+    max-width: 1126px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+padding: 0 10px;
+}
+.image_ditails{
+    text-align: left;
+}
+.image_ditails img{
+    width: calc(300px + 400 * ((100vw - 320px) / (1920 - 320)));
+
+}
+.title_ditails{
+    font-size: 50px;
+    font-weight: 500;
+}
+.category_ditails{
+    margin: 20px 0;
+
+}
+.instructions_ditails{
+    margin: 20px 0;
+
+}
+
+.table_ditails{
+    width: 100%;
+}
+
+.table_thead_ditails{
+    font-weight: 700;
+}
+
+.row_table{
+    text-align: center;
+    height: 60px;
+}
+
+.row_table td{
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.292);
+
+}
+
+.video_recepts{
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+.youtube_container{
+width: calc(300px + 260 * ((100vw - 320px) / (1920 - 320)));
+height: calc(200px + 115 * ((100vw - 320px) / (1920 - 320)));
+}
+
+
+
+.ditails_container_cont{
+    max-width: 1126px;
+    margin: 0 auto;
+}
+
+
+.ditails_button_container{
+   
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+
+.ditails_button{
+    font-family: Roboto;
+    background: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: rgb(27, 126, 166);
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 0 2px 1px rgb(118, 116, 116);
+    margin-bottom: 15px;
+}
+.ditails_button:hover{
+    background-color: rgb(98, 167, 195);
+    transition: .3s;
+}

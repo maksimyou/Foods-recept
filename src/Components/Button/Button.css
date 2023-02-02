@@ -1,0 +1,24 @@
+.card_button_container{
+    border-top: 2px solid rgba(179, 173, 173, 0.166);
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+.card_button{
+    font-family: Roboto;
+    background: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: rgb(27, 126, 166);
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 0 2px 1px rgb(118, 116, 116);
+    margin-bottom: 15px;
+}
+.card_button:hover{
+    background-color: rgb(98, 167, 195);
+    transition: .3s;
+}

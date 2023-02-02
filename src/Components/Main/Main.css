@@ -1,0 +1,29 @@
+.main_container{
+    max-width: 1126px;
+    margin: 0 auto;
+    height: 100%;
+}
+.main_content{
+
+
+}
+.container_cards{
+    grid-gap: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+   justify-items: center;
+}
+
+@media (max-width:559px){
+    .container_cards{
+       justify-content: center;
+    }
+}
+
+/*.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}*/

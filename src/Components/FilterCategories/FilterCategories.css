@@ -1,0 +1,44 @@
+.container_mealss{
+    grid-gap: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    max-width: 1126px;
+    margin: 0 auto;
+   justify-items: center;
+
+}
+
+
+@media (max-width:559px){
+    .container_mealss{
+       justify-content: center;
+    }
+}
+
+.categoriy_categ_container{
+
+max-width: 1126px;
+margin: 0 auto;
+text-align:left ;
+}
+
+.categoriy_button{
+    margin-top: 20px;
+    font-family: Roboto;
+    background: transparent;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: rgb(27, 126, 166);
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 0 2px 1px rgb(118, 116, 116);
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.categoriy_button:hover{
+    background-color: rgb(98, 167, 195);
+    transition: .3s;
+}

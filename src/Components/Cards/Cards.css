@@ -1,0 +1,33 @@
+.container_card{
+    width: 240px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.235);
+    margin: 20px;
+}
+
+.card_content_image_title{
+ 
+}
+
+.card_content_image img{
+    width: 240px;
+
+}
+.card_content_stitle{
+    margin: 0 5px;
+}
+.card_title{
+    font-family: Roboto;
+    font-size:16px;
+    margin-bottom:8px;
+}
+.card_text{
+    font-family: Roboto;
+    font-size:16px;
+    text-align: stretch;
+}

@@ -1,0 +1,24 @@
+.loading_container{
+ max-width: 80%;
+ margin: 0 auto;   
+ overflow: hidden;
+ height: 3px;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+.strip_loading{
+    width: 100px;
+    border-bottom: 3px solid green;
+    left: 0px;
+    animation: loading 1s infinite linear;
+}
+
+@keyframes loading{
+0%{
+transform: translateX(0%);;
+}
+100%{
+    transform: translateX(700%);;
+
+}
+}
