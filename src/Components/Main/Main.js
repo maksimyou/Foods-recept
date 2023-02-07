@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+//import { Routes, Route, Link } from 'react-router-dom'
 import './Main.css'
 import Search from '../Search/Search'
 import Cards from '../Cards/Cards'
@@ -9,7 +9,7 @@ function Main() {
 
     let [categories, setCategories] = useState();
     let [searchRes, setSearchRes] = useState();
-    let [error, setError] = useState();
+    //let [error, setError] = useState();
     let [search, setSearch] = useState('s');
     let [loading, setLoading] = useState(false);
     let [switchh, setSwitchh] = useState(false);
@@ -63,7 +63,7 @@ function Main() {
         result = < Loading />
     } else if (!switchh) {
         result = categories.map(elem => {
-            return <Cards idCategory={elem.idCategory} strCategoryThumb={elem.strCategoryThumb} strCategory={elem.strCategory} strCategoryDescription={elem.strCategoryDescription} />
+            return <Cards key={elem.idCategory} idCategory={elem.idCategory} strCategoryThumb={elem.strCategoryThumb} strCategory={elem.strCategory} strCategoryDescription={elem.strCategoryDescription} />
         })
     } else {
         result = <SearchRes loading={loading} searchRes={searchRes} />

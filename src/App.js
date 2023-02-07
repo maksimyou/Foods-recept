@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Main from './Components/Main/Main';
 import Layout from './Components/Layout/Layout';
@@ -11,7 +11,7 @@ import Contacts from './Components/Contacts/Contacts';
 function App() {
 
 
-
+  //"homepage": ".",
 
   return (
 
